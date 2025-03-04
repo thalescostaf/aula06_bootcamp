@@ -1,0 +1,18 @@
+[project]
+name = "aula06-bootcamp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Thales Fernandes",email = "contato.thales@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flake8 (>=7.1.2,<8.0.0)",
+    "black (>=25.1.0,<26.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
